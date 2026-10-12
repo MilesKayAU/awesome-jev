@@ -1,0 +1,11 @@
+{
+  "name": "Jev Chat Assistant for macOS",
+  "repository": "jev-chat/jev-chat-jarvis-mac",
+  "description": "macOS floating-window chat copilot: reads the visible chat via window-cropped screenshots + Apple Vision OCR (or the accessibility text API), sends it to Jev for an 8-way intent Choice and a 0-9 risk Score, or to a local model for offline judging; drafts tone-matched replies, re-ranks them locally, and fills the pick in — never sends.",
+  "category": "applications",
+  "evidence": [
+    "src/judge_jev.py",
+    "src/judge.py",
+    "src/generate.py"
+  ]
+}
