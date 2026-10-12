@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-182 projects.
+185 projects.
 
 ### SDKs
 
@@ -142,6 +142,9 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 - [cua](https://github.com/aryaminus/cua) — Computer-use automation where an LLM discovers a UI flow once and it replays deterministically with no model in the loop; Jev answers the continue/stuck decision when discovery stops making progress\.
 - [human-compiler](https://github.com/asfarsadewa/human-compiler) — A compiler for human language\. Paste text, get diagnostics\. Measured by TypeSafe Jev\.
+- [Jev Chat Assistant](https://github.com/jev-chat/jev-chat-jarvis) — Android chat copilot that sends the visible QQ, X, Feishu/Lark or WhatsApp conversation to Jev for intent, needs and next-action Choice questions, a danger-level Score and three Noul checks, then asks one more Choice to rank three replies drafted by a separate chat model and fills the picked reply into the input box without sending\.
+- [Jev Chat Assistant for macOS](https://github.com/jev-chat/jev-chat-jarvis-mac) — macOS floating-window chat copilot: reads the visible chat via window-cropped screenshots \+ Apple Vision OCR \(or the accessibility text API\), sends it to Jev for an 8-way intent Choice and a 0-9 risk Score, or to a local model for offline judging; drafts tone-matched replies, re-ranks them locally, and fills the pick in — never sends\.
+- [Jev Chat Assistant Keyboard for iOS](https://github.com/jev-chat/jev-chat-jarvis-ios) — iOS custom-keyboard chat copilot: copy a message in any chat app, tap Analyze on the Jev keyboard, and it calls TypeSafe Jev \(systemone\) for an 8-way intent Choice and 0-9 risk Score, drafts 2 replies per tone \(12 tones\) via OpenAI/Anthropic-compatible endpoints, re-ranks with Jev, and inserts the pick — never sends\.
 - [Jev Cookbook](https://github.com/nexibeo/jev-cookbook) — Runnable Node recipes that call Jev through OpenRouter's Decisions endpoint for classification jobs such as support-ticket routing, with confidence thresholds and human-review routing kept in code\.
 - [Jev for Chrome](https://github.com/chy4pro/jev-for-chrome) — Unofficial Chrome extension port of Jev Ultrafast in which Jev selects the browser operation and DOM target each step and a separate text model supplies typed text\.
 - [Jev Mac Voice](https://github.com/brudarko/jev-mac-voice) — Electron app for English voice control of macOS through OpenAI Realtime and a native Swift Accessibility bridge, with an optional browser command where TypeSafe Jev Choice, Noul, and Score questions pick the action, target, and completion check for Playwright to execute after policy and approval\.
