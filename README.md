@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-185 projects.
+186 projects.
 
 ### SDKs
 
@@ -140,6 +140,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ### Applications
 
+- [1 Million Emojis](https://github.com/cwdx/1-million-emojis) — Shared 1000 × 1000 emoji canvas where, after each visitor stroke, Jev answers one Choice over named emoji and square pairs next to it and a Noul on whether the stroke is an unfinished shape\.
 - [cua](https://github.com/aryaminus/cua) — Computer-use automation where an LLM discovers a UI flow once and it replays deterministically with no model in the loop; Jev answers the continue/stuck decision when discovery stops making progress\.
 - [human-compiler](https://github.com/asfarsadewa/human-compiler) — A compiler for human language\. Paste text, get diagnostics\. Measured by TypeSafe Jev\.
 - [Jev Chat Assistant](https://github.com/jev-chat/jev-chat-jarvis) — Android chat copilot that sends the visible QQ, X, Feishu/Lark or WhatsApp conversation to Jev for intent, needs and next-action Choice questions, a danger-level Score and three Noul checks, then asks one more Choice to rank three replies drafted by a separate chat model and fills the picked reply into the input box without sending\.
