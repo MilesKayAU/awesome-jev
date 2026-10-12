@@ -1,0 +1,12 @@
+{
+  "name": "Jev Chat Assistant",
+  "repository": "jev-chat/jev-chat-jarvis",
+  "description": "Android chat copilot that sends the visible QQ, X, Feishu/Lark or WhatsApp conversation to Jev for intent, needs and next-action Choice questions, a danger-level Score and three Noul checks, then asks one more Choice to rank three replies drafted by a separate chat model and fills the picked reply into the input box without sending.",
+  "category": "applications",
+  "evidence": [
+    "cn/app/src/main/java/com/jev/probe/jev/JudgeClient.kt",
+    "cn/app/src/main/java/com/jev/probe/jev/JevQuestions.kt",
+    "cn/app/src/main/java/com/jev/probe/jev/ReplyClient.kt",
+    "cn/app/src/main/java/com/jev/probe/capture/GuardedInputWriter.kt"
+  ]
+}
