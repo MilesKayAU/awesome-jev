@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-185 projects.
+186 projects.
 
 ### SDKs
 
@@ -117,6 +117,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [progressgate](https://github.com/AshutoshVJTI/progressgate) — It's a small deterministic policy sitting on top of TypeSafe Jev semantic judgments — Jev reads the trajectory, code decides what to do about it\.
 - [SemDecide](https://github.com/sharziki/semdecide) — CLI that uses TypeSafe Jev for semantic predicates, classification, scoring, and filtering in Unix pipelines\.
 - [slop-grader](https://github.com/lukstei/slop-grader) — Rule-based CLI and agent skill that grades text and markdown files against custom rulesets using TypeSafe Jev, guiding an AI agent to auto-fix violations\.
+- [strayguard](https://github.com/Eve2512/Strayguard) — Git pre-commit hook that asks TypeSafe Jev one Choice question per newly added file and flags scratch scripts, output dumps, build output and local-only files before they are committed\.
 - [Supercov](https://github.com/supercorp-ai/supercov) — Code quality and coverage CLI for coding agents that uses TypeSafe Jev to assess source-code quality\.
 - [TypeSafe AI Playground](https://github.com/markjaquith/typesafe-ai-playground) — Rust CLI with TypeSafe Jev experiments for PHI detection, code-comment review, tone analysis, and classification\.
 - [Winnow](https://github.com/GhalebDweikat/winnow) — Claude Code tool-output filter that uses TypeSafe Jev to judge which blocks are relevant to the current task\.
